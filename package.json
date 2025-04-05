@@ -1,8 +1,29 @@
 {
   "scripts": {
-    "start": "servor --reload"
+    "start": "servor --reload",
+    "dev": "nodemon script.js"
   },
   "dependencies": {
+    "jsonwebtoken": "^9.0.2",
     "servor": "^4.0.2"
+  },
+  "name": "saving_the_token_and_setting_it_in_the_cookie-a1",
+  "version": "1.0.0",
+  "description": "- Understand the process of JWT token encryption and decryption for secure data transmission.",
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHANYA-00/Saving_the_token_and_setting_it_in_the_cookie-A1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DHANYA-00/Saving_the_token_and_setting_it_in_the_cookie-A1/issues"
+  },
+  "homepage": "https://github.com/DHANYA-00/Saving_the_token_and_setting_it_in_the_cookie-A1#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
